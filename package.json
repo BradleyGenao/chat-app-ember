@@ -30,7 +30,8 @@
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
     "ember-auto-import": "^1.11.2",
-    "ember-cli": "~3.26.1",
+    "ember-browserify": "^1.2.2",
+    "ember-cli": "3.14",
     "ember-cli-app-version": "^5.0.0",
     "ember-cli-babel": "^7.26.3",
     "ember-cli-dependency-checker": "^3.2.0",
@@ -65,5 +66,17 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "he": "^1.2.0",
+    "pusher": "^5.0.0",
+    "pusher-js": "^7.0.3",
+    "sentiment": "^5.0.2",
+    "strftime": "^0.10.0"
   }
 }
